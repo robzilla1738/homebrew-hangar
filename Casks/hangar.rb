@@ -1,6 +1,6 @@
 cask "hangar" do
   version "0.1.0"
-  sha256 :no_check  # populated by the release workflow once a signed DMG ships
+  sha256 "6252dd4204974a4204653b4e8c9831ba684afa302a61691f9a66dcd00b6b6b9b"
   url "https://github.com/robzilla1738/hangar/releases/download/v#{version}/Hangar-#{version}.dmg"
   name "Hangar"
   desc "Native macOS terminal for managing agentic CLI workflows"
